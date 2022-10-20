@@ -1,0 +1,302 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+    #header {
+        background-color: black ;
+        height: 50px;
+        margin: 0;
+        padding: 0;
+        
+    }
+
+    #header .nav {
+        display: flex;
+        list-style-type: none;
+        font-size: 20px;
+        padding-top: 8px;
+        
+    }
+
+    #header ul li a {
+        margin: 0 15px 0 0;
+        text-transform: uppercase;
+        font-weight: bolder;
+        color: white;
+        text-decoration: none;
+    }
+
+   
+    #banner{
+        background-image: url(../img/thanh-pho-can-tho.jpg) ;
+        background-size: cover;
+        height: 600px;
+           
+    }
+
+
+    #banner .text-banner {
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    padding-top: 100px;
+    font-family: 'Festive', cursive; 
+    text-shadow: 5px 2px 4px grey;
+
+    }
+    
+    
+    /* intro css  */
+
+    #intro {
+        padding-top: 50px;
+    }
+
+    #intro .pc-text {
+        display: block;
+        text-align: justify;
+        padding-top: 60px;
+        font-size: 18px;
+    }
+
+    #intro .mobile-text {
+        display: none;
+    }
+
+    /* Landscape css */
+
+    #Landscape {
+        padding-top: 50px;
+    }
+
+    #Landscape h2 { 
+        text-align: center;
+        font-size: 65px;
+        padding-bottom: 20px;
+        font-family: 'Festive', cursive; 
+    }
+
+    #Landscape br {
+        display: block;
+    }
+
+    .places-img {
+        height: 300px;
+        width: 100%;
+        transform: scale(1);
+        transition: all 0.5s;
+    }
+
+    .places-img:hover {
+        transform: scale(1.1);
+        }
+
+    /* Contact form */
+    #contact .section-heading {
+        text-align: center;
+        font-size: 65px;
+        padding-bottom: 20px;
+        font-family: 'Festive', cursive;
+
+    }
+
+    #contact .contact-info {
+        font-size: 26px;
+        padding-top: 50px;
+        text-align: center;
+    }
+
+    .contact-form .form-control {
+        padding: 10px;
+        border: 1px solid #ccc;
+        width: 100%;
+        margin: 0;
+    }
+    
+    .btn {
+        color: #fff;
+        background-color: #000;
+        text-decoration: none;
+        padding: 11px 16px;
+        display: inline-block;
+        margin-top: 15px;
+        border: none;
+        text-align: center;
+        width: 50%;
+        font-weight: bolder;
+    }
+
+    .btn:hover {
+        cursor: pointer;
+        color: #000;
+        background-color: #ccc;
+    }
+
+
+    /* news css */
+    #news {
+        padding-top: 50px;
+    }
+
+    .news-body {
+        border-style: inset;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .news-body a {
+        font-size: 18px;
+        color: blue;
+    }
+
+    .news-desc {
+        display: block;
+    }
+
+    
+    /* footer css */
+
+    #footer {
+        padding: 64px 16px;
+        text-align: center;
+  
+    }
+    
+
+    #footer .socials-list {
+        font-size: 40px;
+    }
+    
+    #footer .socials-list a{
+        color:  rgba(0, 0, 0, 0.6);
+        text-decoration: none;
+    }
+    
+    #footer .copyright a:hover,
+    #footer .socials-list a:hover {
+        color:rgba(0, 0, 0, 0.4)
+    }
+    
+    #footer .copyright {
+        margin-top: 15px;
+        color: rgba(0, 0, 0, 0.6);
+    
+    }
+    
+    #footer .copyright a {
+        color: rgba(0, 0, 0, 0.6);
+    
+    }
+
+    /* Đại lý CSS */
+
+    #daily .daily-list li {
+        text-align: center;
+        list-style-type: none;
+        
+    }
+
+    
+    /* gird */
+
+    .row {
+        margin-left: -12px;
+        margin-right: -12px;
+
+    }
+
+    .col {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .l-0 {
+        display: none;
+    }
+
+    .l-1,
+    .l-2,
+    .l-2-4
+    .l-3,
+    .l-4,
+    .l-5,
+    .l-6,
+    .l-7,
+    .l-8,
+    .l-9,
+    .l-10,
+    .l-11,
+    .l-12 {
+        display: block;
+    }
+
+    .l-1 {
+        flex: 0 0 8.33333%;
+        max-width: 8.33333%;
+    }
+    
+    .l-2 {
+        flex: 0 0 16.66667%;
+        max-width: 16.66667%;
+    }
+    
+    .l-2-4 {
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+
+    .l-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    
+    .l-4 {
+        flex: 0 0 33.33333%;
+        max-width: 33.33333%;
+    }
+    
+    .l-5 {
+        flex: 0 0 41.66667%;
+        max-width: 41.66667%;
+    }
+    
+    .l-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    
+    .l-7 {
+        flex: 0 0 58.33333%;
+        max-width: 58.33333%;
+    }
+    
+    .l-8 {
+        flex: 0 0 66.66667%;
+        max-width: 66.66667%;
+    }
+    
+    .l-9 {
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+    
+    .l-10 {
+        flex: 0 0 83.33333%;
+        max-width: 83.33333%;
+    }
+    
+    .l-11 {
+        flex: 0 0 91.66667%;
+        max-width: 91.66667%;
+    }
+    
+    .l-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+   
+}

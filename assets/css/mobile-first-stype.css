@@ -1,0 +1,294 @@
+/* Reset CSS */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+/* grid CSS  */
+
+.grid {
+    width: 100%;
+    display: block;
+    padding: 0;
+}
+
+.grid.wide {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -4px;
+    margin-right: -4px;
+}
+
+.row .no-gutter {
+    margin-left: 0;
+    margin-right: 0;
+
+}
+
+
+.col {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.row .no-gutter .col {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.c-0 {
+    display: none;
+}
+
+.c-1 {
+    flex: 0 0 8.33333%;
+    max-width: 8.33333%;
+}
+
+.c-2 {
+    flex: 0 0 16.66667%;
+    max-width: 16.66667%;
+}
+
+.c-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+.c-4 {
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+}
+
+.c-5 {
+    flex: 0 0 41.66667%;
+    max-width: 41.66667%;
+}
+
+.c-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.c-7 {
+    flex: 0 0 58.33333%;
+    max-width: 58.33333%;
+}
+
+.c-8 {
+    flex: 0 0 66.66667%;
+    max-width: 66.66667%;
+}
+
+.c-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+}
+
+.c-10 {
+    flex: 0 0 83.33333%;
+    max-width: 83.33333%;
+}
+
+.c-11 {
+    flex: 0 0 91.66667%;
+    max-width: 91.66667%;
+}
+
+.c-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+/* #header menu */
+
+#header {
+    background-color: black ;
+    height: 50px;
+    margin: 0;
+    padding-left: 10px;
+    
+    
+}
+
+#header .nav {
+    display: flex;
+    list-style-type: none;
+    font-size: 12px;
+    padding-top: 10px;
+
+}
+
+#header ul li a {
+    margin: 0 15px 0 0;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+
+}
+
+/* #banner CSS */
+
+#banner{
+    background-image: url(../img/thanh-pho-can-tho.jpg) ;
+    height: 150px;
+    background-position:center
+       
+}
+
+#banner .text-banner {
+    color: white;
+    font-size: 35px;
+    font-family: 'Festive', cursive; 
+    text-shadow: 5px 2px 4px rgb(0 0 0 / 80%);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/* intro css  */
+
+#intro .pc-text {
+    display: none;
+}
+
+#intro .mobile-text {
+    text-align: justify;
+    padding-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+ /* Landscape css */
+
+#Landscape {
+    padding-top: 20px;
+}
+
+#Landscape h2 { 
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 20px;
+    font-family: 'Festive', cursive; 
+}
+
+#Landscape br {
+    display: none;
+}
+.places-img {
+    width: 100%;
+    height: auto;
+   
+}
+
+  /* Contact form */
+#contact .section-heading {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Festive', cursive;
+
+}
+
+#contact .contact-info {
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.contact-form .form-control {
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+    
+}
+
+.btn {
+    color: #fff;
+    background-color: #000;
+    text-decoration: none;
+    padding: 11px 16px;
+    display: inline-block;
+    margin-top: 15px;
+    border: none;
+    text-align: center;
+    width: 100%;
+    font-weight: bolder;
+}
+
+.btn:hover {
+    cursor: pointer;
+    color: #000;
+    background-color: #ccc;
+}
+
+/* news css */
+#news {
+    padding-top: 50px;
+}
+
+.news-body {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.news-body a {
+    font-size: 18px;
+    color: blue;
+}
+
+.news-desc {
+    display: none;
+}
+
+
+/* footer css */
+
+#footer {
+    padding: 64px 16px;
+    text-align: center;
+
+}
+
+
+#footer .socials-list {
+    font-size: 40px;
+}
+
+#footer .socials-list a{
+    color:  rgba(0, 0, 0, 0.6);
+    text-decoration: none;
+}
+
+#footer .copyright a:hover,
+#footer .socials-list a:hover {
+    color:rgba(0, 0, 0, 0.4)
+}
+
+#footer .copyright {
+    margin-top: 15px;
+    color: rgba(0, 0, 0, 0.6);
+
+}
+
+#footer .copyright a {
+    color: rgba(0, 0, 0, 0.6);
+
+}
+
+/* Đại lý CSS */
+
+#daily .daily-list {
+    text-align: center;
+}
+
+
